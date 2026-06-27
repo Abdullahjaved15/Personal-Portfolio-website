@@ -1,5 +1,5 @@
 .projects {
-  background: #f8f9fa;
+  background: transparent;
   padding: 100px 0;
 }
 
@@ -10,12 +10,14 @@
 }
 
 .project-card {
-  background: white;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-radius: 15px;
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #f0f0f0;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   position: relative;
   overflow: hidden;
 }
@@ -27,14 +29,15 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 100%);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 240, 255, 0.15);
+  border-color: rgba(0, 240, 255, 0.3);
 }
 
 .project-card:hover::before {
@@ -49,16 +52,17 @@
 .project-icon span {
   font-size: 3rem;
   display: block;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
 }
 
 .project-content h3 {
-  color: #333;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
 }
 
 .project-category {
-  color: #667eea;
+  color: var(--primary);
   font-weight: 500;
   font-size: 0.9rem;
   margin-bottom: 1rem;
@@ -67,7 +71,7 @@
 }
 
 .project-description {
-  color: #666;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
@@ -80,17 +84,19 @@
 }
 
 .tech-tag {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: rgba(0, 240, 255, 0.1);
+  color: var(--primary);
+  border: 1px solid rgba(0, 240, 255, 0.2);
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 500;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .tech-tag:hover {
   transform: scale(1.05);
+  background: rgba(0, 240, 255, 0.2);
 }
 
 .project-link {
@@ -150,4 +156,4 @@
     font-size: 0.75rem;
     padding: 0.25rem 0.6rem;
   }
-} 
+}

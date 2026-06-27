@@ -4,6 +4,15 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
+      title: "Global Mart E-commerce",
+      description: "A fully functional e-commerce website developed during my internship at Nexus AI Digital. Features include product catalog, shopping cart, checkout functionality, and responsive design. Deployed and live on Netlify.",
+      technologies: ["React.js", "Frontend Development", "Responsive Design", "Netlify"],
+      category: "Web Application",
+      icon: "🛒",
+      link: "#",
+      github: "#"
+    },
+    {
       title: "Library Management System",
       description: "Designed and implemented a desktop application for managing book records, user check-ins, and check-outs. Features include book cataloging, user management, and automated checkout system.",
       technologies: ["Java", "GUI", "Object-Oriented Programming"],
@@ -17,13 +26,6 @@ const Projects = () => {
       category: "Web Application",
       icon: "🔐",
       github: "https://github.com/Abdullahjaved15/crypt-analysis-tool"
-    },
-    {
-      title: "Zombie Outbreak Simulator",
-      description: "Simulated a data-intensive environment to apply real-time object-oriented programming. Features include dynamic entity management and real-time simulation.",
-      technologies: ["C++", "Object-Oriented Programming", "Data Structures"],
-      category: "Simulation",
-      icon: "🧟"
     },
     {
       title: "Restaurant Management System",

@@ -21,9 +21,7 @@ const Hero = () => {
               Computer Science Student & Developer
             </h2>
             <p className="hero-description">
-              Motivated Computer Science undergraduate with a strong academic record (CGPA: 3.84) 
-              at COMSATS University. Experienced full-stack developer skilled in C++, Java, web development, 
-              mobile development (Flutter), and AI/ML projects with hands-on experience in innovative software solutions.
+              Computer Science undergraduate at COMSATS University (CGPA: 3.84) with hands-on experience in full-stack development, mobile applications (Flutter), and AI/ML. Completed internships as a Mobile Application Developer at Excelerate and DevelopersHub, with additional frontend experience at Nexus AI Digital. Skilled in C++, Java, web, and mobile development — focused on building scalable, practical software solutions.
             </p>
             <div className="hero-buttons">
               <button 
@@ -40,18 +38,10 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="hero-stats">
-            <div className="stat-item">
-              <h3>3.84</h3>
-              <p>CGPA</p>
-            </div>
-            <div className="stat-item">
-              <h3>9+</h3>
-              <p>Projects</p>
-            </div>
-            <div className="stat-item">
-              <h3>10+</h3>
-              <p>Technologies</p>
+          <div className="hero-image">
+            <div className="avatar-container">
+              <div className="avatar-glow"></div>
+              <img src="/images/Avatar.png" alt="Abdullah Javed" className="avatar-img" />
             </div>
           </div>
         </div>

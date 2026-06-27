@@ -1,5 +1,5 @@
 .about {
-  background: #f8f9fa;
+  background: transparent;
   padding: 100px 0;
 }
 
@@ -9,51 +9,53 @@
 }
 
 .about-card {
-  background: white;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-radius: 15px;
   padding: 2.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #f0f0f0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 240, 255, 0.1);
 }
 
 .about-card h3 {
-  color: #3b82f6;
+  color: var(--primary);
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
 }
 
 .about-card p {
   line-height: 1.7;
-  color: #666;
+  color: var(--text-secondary);
 }
 
 .education-item h4 {
-  color: #333;
+  color: var(--text-primary);
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
 .degree {
   font-weight: 500;
-  color: #1e40af !important;
+  color: var(--primary) !important;
   margin-bottom: 0.5rem;
 }
 
 .gpa {
   font-weight: 600;
-  color: #333 !important;
+  color: var(--text-primary) !important;
   margin-bottom: 0.5rem;
 }
 
 .status {
-  color: #28a745 !important;
+  color: #00ff88 !important;
   font-weight: 500;
   margin-bottom: 0 !important;
 }
@@ -68,23 +70,27 @@
 .strength-item {
   text-align: center;
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
   border-radius: 10px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .strength-item:hover {
   transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 240, 255, 0.1);
 }
 
 .strength-icon {
   font-size: 2.5rem;
   display: block;
   margin-bottom: 1rem;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
 }
 
 .strength-item h4 {
-  color: #333;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
@@ -92,7 +98,7 @@
 .strength-item p {
   font-size: 0.9rem;
   margin: 0;
-  color: #666;
+  color: var(--text-secondary);
 }
 
 @media (max-width: 768px) {
@@ -126,4 +132,4 @@
   .strengths-grid {
     grid-template-columns: 1fr;
   }
-} 
+}

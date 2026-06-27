@@ -1,0 +1,164 @@
+ABDULLAH JAVED
+Computer Science Student & Full-Stack Developer
+
+EMAIL: abdullahch23504@gmail.com
+PHONE: 0327-6776015
+LINKEDIN: linkedin.com/in/abdullah-javed-646368315
+LOCATION: Sahiwal, Pakistan
+
+==================================================
+PROFESSIONAL SUMMARY
+==================================================
+
+Motivated Computer Science undergraduate with a strong academic record (CGPA: 3.84) at COMSATS University. Experienced full-stack developer skilled in C++, Java, web development, mobile development (Flutter), and AI/ML projects. Passionate about creating innovative solutions with hands-on experience in software projects ranging from web applications to mobile platforms. Adept at problem-solving, teamwork, and delivering practical, scalable solutions.
+
+==================================================
+EDUCATION
+==================================================
+
+COMSATS University Islamabad, Sahiwal Campus
+Bachelor of Science in Computer Science
+CGPA: 3.84
+Status: 6th Semester (Currently Enrolled)
+
+==================================================
+PROFESSIONAL EXPERIENCE
+==================================================
+
+Front-End Web Developer (Intern)
+Nexus AI Digital | London
+September 2025 – October 2025
+
+• Developed a complete e-commerce website (Global E-Mart) using React.js
+• Collaborated on UI/UX refinements and optimized performance to meet modern frontend standards
+• Created responsive pages and implemented reusable components for efficient state management
+• Earned certifications in React.js Mastery, Frontend Development Excellence, and Web Performance & Optimization
+
+==================================================
+TECHNICAL SKILLS
+==================================================
+
+PROGRAMMING LANGUAGES:
+C++ (Advanced), Java (Advanced), JavaScript (Intermediate), Python (Beginner), HTML/CSS (Advanced)
+
+WEB DEVELOPMENT:
+React.js, HTML, CSS, JavaScript, Flask, Frontend Development, Responsive Design, UI/UX Implementation
+
+MOBILE DEVELOPMENT:
+Flutter, Firebase, Firestore, Mobile Application Development, Sqflite Database
+
+DATABASES:
+SQL, NoSQL, Firebase Firestore, Sqflite, Local Database Storage
+
+TOOLS & PLATFORMS:
+VS Code, MS Office, Draw.io, GitHub
+
+AI & MACHINE LEARNING:
+Python, AI-based Solutions, Optimization Algorithms, Natural Language Processing (NLP)
+
+CORE COMPUTER SCIENCE CONCEPTS:
+Object-Oriented Programming, Data Structures, Computer Networks, Operating Systems, Information Security, Cryptography
+
+SOFT SKILLS:
+Public Speaking, Teamwork, Critical Thinking, Time Management, Communication, Problem-Solving
+
+==================================================
+PROJECTS
+==================================================
+
+MOBILE APPLICATIONS:
+
+Q-Health: Smart Queue & Appointment System
+• Comprehensive mobile solution for hospital management using Flutter and Firebase
+• Engineered a role-based system supporting Admin, Doctor, and Patient workflows
+• Implemented real-time queue tracking and appointment status updates via Firestore
+• Integrated Firebase Authentication for secure user login and data privacy
+• Technologies: Flutter, Firebase, Firestore
+• GitHub: github.com/Abdullahjaved15/Queue-and-Appointment-Management
+
+Warranty/Expiry Tracker App
+• Utility application for tracking product longevity using Flutter
+• Implemented Sqflite for robust local database storage and offline accessibility
+• Features full CRUD functionality with intuitive UI for managing product records
+• Technologies: Flutter, Sqflite, Mobile Development
+• GitHub: github.com/Abdullahjaved15/Expiry-Warranty-Tracker
+
+WEB APPLICATIONS:
+
+Crypt Analysis Tool
+• Web tool to analyze and break basic cryptographic schemes
+• Provides various encryption/decryption methods and cryptographic analysis features
+• Technologies: HTML, CSS, JavaScript, Python, Flask
+• GitHub: github.com/Abdullahjaved15/crypt-analysis-tool
+
+Hire Match
+• Smart job matching platform that connects job seekers with suitable positions
+• Features intelligent filtering and recommendation algorithms
+• Technologies: Web Development, Algorithms, Database
+• GitHub: github.com/Abdullahjaved15/Hire-Match
+
+Assignment Plagiarism Checker
+• Comprehensive plagiarism detection system for academic assignments
+• Utilizes advanced comparison algorithms to identify similar content
+• Provides detailed plagiarism reports using NLP techniques
+• Technologies: Python, NLP, Algorithms, Web Development
+• GitHub: github.com/Abdullahjaved15/Assignment-Plagiarism-Checker
+
+DESKTOP APPLICATIONS:
+
+Library Management System
+• Desktop application for managing book records, user check-ins, and check-outs
+• Features include book cataloging, user management, and automated checkout system
+• Demonstrates strong Object-Oriented Programming principles
+• Technologies: Java, GUI, Object-Oriented Programming
+
+Zombie Outbreak Simulator
+• Simulated a data-intensive environment to apply real-time object-oriented programming
+• Features dynamic entity management and real-time simulation
+• Technologies: C++, Object-Oriented Programming, Data Structures
+
+Restaurant Management System
+• Low-level program simulating menu and order management functionalities
+• Includes inventory tracking, order processing, and basic reporting
+• Technologies: Assembly Language, Low-level Programming
+
+AI/MACHINE LEARNING PROJECTS:
+
+AI-based University Timetable Scheduler
+• Intelligent timetable scheduling system for universities built using Python
+• Automates the creation of conflict-free academic timetables
+• Considers constraints such as faculty availability, course requirements, classrooms, and time slots
+• Technologies: Python, AI, Algorithms, Optimization
+• GitHub: github.com/Abdullahjaved15/AI-based-University-Timetable-Scheduler
+
+==================================================
+CERTIFICATIONS & ACHIEVEMENTS
+==================================================
+
+• React.js Mastery Certificate - Nexus AI Digital (October 2025)
+  Completed comprehensive React.js training with focus on component architecture, state management, and performance optimization
+
+• Frontend Development Excellence Certificate - Nexus AI Digital (October 2025)
+  Successfully completed internship program covering modern frontend practices, responsive design, and UI/UX implementation
+
+• Web Performance & Optimization Certificate - Nexus AI Digital (October 2025)
+  Earned certification for implementing best practices in web performance, optimization techniques, and scalable component design
+
+==================================================
+CORE STRENGTHS
+==================================================
+
+• Full-Stack Development: Experience with frontend, backend, and database technologies
+• Problem Solving: Analytical thinking and efficient algorithm development
+• Mobile Development: Proficient in Flutter for cross-platform mobile applications
+• AI & Machine Learning: Experience with AI-based solutions and optimization algorithms
+• Database Design: SQL and NoSQL database design and optimization
+• Teamwork: Collaborative approach with excellent communication skills
+• Quick Learner: Ability to adapt and learn new technologies and frameworks
+
+==================================================
+LANGUAGES
+==================================================
+
+English: Professional Working Proficiency
+Urdu: Native Proficiency

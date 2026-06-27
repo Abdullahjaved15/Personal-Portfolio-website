@@ -1,5 +1,5 @@
 .contact {
-  background: white;
+  background: transparent;
   padding: 100px 0;
 }
 
@@ -12,14 +12,16 @@
 }
 
 .contact-card {
-  background: #f8f9fa;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
   border-radius: 15px;
   padding: 2.5rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .contact-card h3 {
-  color: #3b82f6;
+  color: var(--primary);
   margin-bottom: 2rem;
   font-size: 1.5rem;
 }
@@ -34,24 +36,27 @@
 .contact-icon {
   font-size: 1.5rem;
   min-width: 30px;
+  color: var(--primary);
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
 }
 
 .contact-item h4 {
-  color: #333;
+  color: var(--text-primary);
   margin-bottom: 0.25rem;
   font-size: 1rem;
 }
 
 .contact-item p,
 .contact-item a {
-  color: #666;
+  color: var(--text-secondary);
   margin: 0;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .contact-item a:hover {
-  color: #3b82f6;
+  color: var(--primary);
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.3);
 }
 
 .whatsapp-sidebar {
@@ -61,28 +66,29 @@
 }
 
 .whatsapp-card {
-  background: #f8f9fa;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
   border-radius: 15px;
   padding: 2.5rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--glass-border);
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .whatsapp-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.15);
+  box-shadow: 0 15px 40px rgba(0, 240, 255, 0.15);
 }
 
 .whatsapp-card h3 {
-  color: #3b82f6;
+  color: var(--primary);
   margin-bottom: 1rem;
   font-size: 1.3rem;
 }
 
 .whatsapp-card p {
-  color: #666;
+  color: var(--text-secondary);
   margin-bottom: 1.5rem;
 }
 
@@ -92,11 +98,12 @@
 }
 
 .contact-form {
-  background: white;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
   border-radius: 15px;
   padding: 2.5rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #f0f0f0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
 }
 
 .form-group {
@@ -106,7 +113,7 @@
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: var(--text-primary);
   font-weight: 500;
 }
 
@@ -114,7 +121,9 @@
 .form-group textarea {
   width: 100%;
   padding: 0.75rem;
-  border: 2px solid #e9ecef;
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--text-primary);
+  border: 2px solid var(--glass-border);
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -124,8 +133,8 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  border-color: var(--primary);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
 }
 
 .form-group textarea {
@@ -181,4 +190,4 @@
     padding: 0.6rem;
     font-size: 0.9rem;
   }
-} 
+}

@@ -11,11 +11,7 @@ const About = () => {
             <div className="about-card">
               <h3>Summary</h3>
               <p>
-                Motivated Computer Science undergraduate with a strong academic record (CGPA: 3.84) 
-                at COMSATS University. Experienced full-stack developer skilled in C++, Java, web development, 
-                mobile development (Flutter), and AI/ML projects. Passionate about creating innovative solutions 
-                with hands-on experience in software projects ranging from web applications to mobile platforms. 
-                Adept at problem-solving, teamwork, and delivering practical, scalable solutions.
+                Computer Science undergraduate at COMSATS University (CGPA: 3.84) with hands-on experience in full-stack development, mobile applications (Flutter), and AI/ML. Completed internships as a Mobile Application Developer at Excelerate and DevelopersHub, with additional frontend experience at Nexus AI Digital. Skilled in C++, Java, web, and mobile development — focused on building scalable, practical software solutions.
               </p>
             </div>
             

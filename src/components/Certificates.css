@@ -1,10 +1,10 @@
 .certificates {
-  background: #f8f9fa;
+  background: transparent;
   padding: 100px 0;
 }
 
 .certificates h2 {
-  color: #333;
+  color: var(--text-primary);
   margin-bottom: 3rem;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .certificate-card:hover {
-  box-shadow: 0 20px 50px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 240, 255, 0.1);
   border-color: transparent;
 }
 
@@ -51,6 +51,7 @@
   font-size: 3rem;
   margin-bottom: 1rem;
   display: block;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
 }
 
 .certificate-image {
@@ -60,30 +61,30 @@
   margin-bottom: 0;
   border-radius: 15px;
   object-fit: cover;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--glass-border);
 }
 
-
 .certificate-card h3 {
-  color: #3b82f6;
+  color: var(--primary);
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
 }
 
 .issuer {
-  color: #1e40af;
+  color: var(--primary-light);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 .date {
-  color: #666;
+  color: var(--text-secondary);
   font-size: 0.95rem;
   margin-bottom: 1.5rem;
 }
 
 .description {
-  color: #555;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
@@ -91,8 +92,8 @@
 
 .certificate-badge {
   display: inline-block;
-  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: #000;
   padding: 0.5rem 1.2rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -104,9 +105,9 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(59, 130, 246, 0.9);
-  color: white;
-  border: none;
+  background: rgba(0, 240, 255, 0.1);
+  color: var(--primary);
+  border: 1px solid var(--primary);
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -120,9 +121,9 @@
 }
 
 .carousel-button:hover {
-  background: rgba(59, 130, 246, 1);
+  background: rgba(0, 240, 255, 0.2);
   transform: translateY(-50%) scale(1.15);
-  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 240, 255, 0.3);
 }
 
 .carousel-button.prev {
@@ -144,20 +145,21 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #ddd;
+  background: var(--glass-border);
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .dot.active {
-  background: #3b82f6;
+  background: var(--primary);
   width: 32px;
   border-radius: 6px;
+  box-shadow: 0 0 10px var(--primary);
 }
 
 .dot:hover {
-  background: #3b82f6;
+  background: var(--primary-light);
 }
 
 @media (max-width: 768px) {

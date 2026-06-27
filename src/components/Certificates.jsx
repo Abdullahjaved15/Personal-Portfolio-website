@@ -32,6 +32,24 @@ const Certificates = () => {
       description: 'Earned certification for implementing best practices in web performance, optimization techniques, and scalable component design.',
       type: 'image',
       file: '/images/Abdullah_Javed_certificate-1.png'
+    },
+    {
+      id: 4,
+      title: 'Mobile Application Developer Internship',
+      issuer: 'Excelerate',
+      date: 'February 2026',
+      description: 'Completed virtual internship focused on cross-platform mobile application development using Flutter and Dart.',
+      type: 'image',
+      file: '/images/Excelerate.png'
+    },
+    {
+      id: 5,
+      title: 'Mobile Application Developer Internship',
+      issuer: 'DevelopersHub',
+      date: 'March 2026',
+      description: 'Successfully completed 6-week virtual internship developing scalable mobile applications with state management.',
+      type: 'image',
+      file: '/images/developershub.png'
     }
   ];
 
